@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tabela</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #00ffff, #8f94fb);
+  }
+
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-x: auto; /* Adiciona scroll horizontal se necessário */
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+
+  thead {
+    background-color: #f2f2f2;
+  }
+
+  tfoot {
+    background-color: #f2f2f2;
+  }
+
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h1 style="text-align: center;">Tabela de Horários</h1>
+
+  <table>
+    <caption>Horários das Aulas</caption>
+    <thead>
+      <tr>
+        <th>Ordem</th>
+        <th>Segunda-feira</th>
+        <th>Terça-feira</th>
+        <th>Quarta-feira</th>
+        <th>Quinta-feira</th>
+        <th>Sexta-feira</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1º Horário</td>
+        <td>AOC</td>
+        <td>Educação Física</td>
+        <td>Geografia</td>
+        <td>História</td>
+        <td>Informática Básica</td>
+      </tr>
+      <tr>
+        <td>2º Horário</td>
+        <td>Língua Portuguesa</td>
+        <td>Educação Física</td>
+        <td>Geografia</td>
+        <td>História</td>
+        <td>Informática Básica</td>
+      </tr>
+      <tr>
+        <td>3º Horário</td>
+        <td>Língua Portuguesa</td>
+        <td>Matemática</td>
+        <td>AOC</td>
+        <td>Oficina Formativa</td>
+        <td>Artes</td>
+      </tr>
+      <tr>
+        <td>4º Horário</td>
+        <td>Projeto de Vida</td>
+        <td>NEE</td>
+        <td>Eletivas</td>
+        <td>Oficina Formatica</td>
+        <td>Língua Portuguesa</td>
+      </tr>
+      <tr>
+        <td>5º Horário</td>
+        <td>Projeto de Vida</td>
+        <td>NEE</td>
+        <td>Eletivas</td>
+        <td>Matemática</td>
+        <td>Inglês</td>
+      </tr>
+      <tr>
+        <td>6º Horário</td>
+        <td>Práticas Experimentais</td>
+        <td>AOC</td>
+        <td>Sociologia</td>
+        <td>Matemática</td>
+        <td>Inglês</td>
+      </tr>
+      <tr>
+        <td>7º Horário</td>
+        <td>Práticas Experimentais</td>
+        <td>AOC</td>
+        <td>NEE</td>
+        <td>Eletiva Orientada</td>
+        <td>Química</td>
+      </tr>
+      <tr>
+        <td>8º Horário</td>
+        <td>Física</td>
+        <td>Biologia</td>
+        <td>_______________</td>
+        <td>Eletiva Orientada</td>
+        <td>Química</td>
+      </tr>
+      <tr>
+        <td>9º Horário</td>
+        <td>Física</td>
+        <td>Biologia</td>
+        <td>_______________</td>
+        <td>Espanhol</td>
+        <td>_______________</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="6" style="text-align: center;">1º B Informática.</td>
+      </tr>
+    </tfoot>
+  </table>
+</div>
+
+<footer>
+  <p>&copy Site feito por Arthur 1° B info e Guilherme 2° B info.</p>
+</footer>
+
+</body>
+</html>
